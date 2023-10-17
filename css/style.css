@@ -19,6 +19,15 @@ body{
 }
 
 
+a{
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 1.2px #707070;
+}
+    footer{
+        background-color: #A7B1C2;
+    }
+
 
 /* HOMEPAGE */
 .container-home{
@@ -33,14 +42,13 @@ body{
 }
 
 
-.container-home header{
+header{
     background-color: #F3E5AB;
     display: flex;
     justify-content: center;
     padding: 1.5%;
 }
-
-.container-home .navbar{
+.navbar{
     background-color: #4e342ec5;
 }
 
@@ -102,9 +110,6 @@ body{
     /* background-color: #F3E5AB; */
 }
 
-.container-home footer{
-    background-color: #A7B1C2;
-}
 
 .testimonials{
     display: grid;
@@ -138,8 +143,9 @@ body{
     box-shadow: 0 0 8px #000;
 }
 
-a{
-    text-decoration: none;
-    color: #fff;
-    text-shadow: 0 0 1.2px #707070;
+/* ABOUT PAGE */
+.container-about{
+    background-image: url('https://i.postimg.cc/nrf94qT4/about-background.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
