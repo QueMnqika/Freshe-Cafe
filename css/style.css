@@ -16,7 +16,6 @@ body{
 .about, hr ,.products, .testimonials{
     margin: 1% 3.5%;
     color: #000;
-    text-shadow: 0 0 5px #fff;
 }
 
 
