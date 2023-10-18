@@ -9,7 +9,7 @@
 
 body{
     font-size: 18px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     line-height: 1.35;
 }
 
@@ -18,7 +18,7 @@ body{
     color: #000;
 }
 
-h2, h1{
+h3, h2, h1{
     text-align: center;
     color: #fff;
     text-shadow: 0 0 6px #070707;
@@ -142,35 +142,118 @@ header{
     box-shadow: 0 0 8px #000;
 }
 
-/* ABOUT PAGE */
+/* PRODUCT PAGE */
 
-.container-about{
+.container-products{
     /* background-image: url('https://i.postimg.cc/nrf94qT4/about-background.jpg'); */
     background-image: url('https://i.postimg.cc/NFkZJYp4/anastasiia-chepinska-lcf-H0p6emhw-unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
-.container-about section{
+.container-products section{
     display: flex;
     justify-content: space-evenly;
     padding: 2% 1% 2% 7%;
     margin: -1% 5%;
+    /* flex-wrap: wrap; */
 }
 
-.container-about section img{
+.container-products section img{
     width: 100%;
     border-bottom: 1px solid #000;
 }
 
-.container-about section div{
+.container-products section div{
     box-shadow: 0 0 15px #000;
     margin: 1.5%;
     background-color: #f4f4f45e;
     text-align: center;
 }
 
-.container-about section div p,.container-about section div h3 {
+.container-products section div p,.container-products section div h3 {
     padding: 5%;
 }
 
+/* CHECKOUT PAGE */
+
+.container-order{
+    background-image: url('https://i.postimg.cc/NfxSXGWd/Generate-a-caf-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.my-form{
+    background-color: #ac937241;
+    display: flex;
+    justify-content: center;
+    margin: 0 25%;
+    padding: 3% 0;
+}
+
+.inpt, button, .reset{
+    padding: 6%;
+    margin: 2% 5%;
+    width: 100%;
+    border-radius: 5rem;
+    border: none;
+    text-shadow: 0 0 1px #424242;
+}
+
+.reset:hover{
+    background-color: #ff5050;
+}
+
+.my-form button:hover{
+    background-color: #57f86d;
+}
+
+
+.prdcts, select{
+    margin-left: 6%;
+    padding: 2%;
+    width: 100%;
+    border-radius: 5rem;
+}
+
+textarea{
+    margin: 1% 6%;
+    width: 100%;
+    padding: 2%;
+    border-radius: 1rem;
+}
+
+.bttm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70% 70%;
+}
+
+.container-order h6{
+        font-size: 60%;
+        margin: 0;
+        padding: 0;
+}
+
+/* ABOUT PAGE */
+
+.container-about{
+    background-image: url('https://i.postimg.cc/YC9N7PPC/about-background.jpg');
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.about-us{
+    color: #cdcdcd;
+    margin: 0 10%;
+}
+
+.about-us h3{
+    padding: 2%;
+}
