@@ -30,7 +30,7 @@ a{
     text-shadow: 0 0 1.2px #707070;
 }
     footer{
-        background-color: #A7B1C2;
+        background-color: #263652;
     }
 
 
@@ -41,8 +41,6 @@ a{
     background-size: cover;
     background-attachment: fixed;
 }
-
-
 
 header{
     background-color: #F3E5AB;
@@ -137,8 +135,9 @@ header{
 }
 
 .testimonials img{
-    width: 75%;
-    border-radius: 25%;
+    width: 806%;
+    border-radius: 60%;
+    
     box-shadow: 0 0 8px #000;
 }
 
@@ -280,9 +279,15 @@ textarea{
     width: 55%;
 }
 
-.container-contact input, textarea{
+.container-contact input, .container-contact textarea{
     padding: 2.5%;
     width: 40%;
     border-radius: 25px;
     border: none;
+}
+
+
+/* Media Queries */
+@media screen {
+    
 }
