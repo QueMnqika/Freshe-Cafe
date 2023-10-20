@@ -41,7 +41,7 @@ header{
     animation: spin 2s infinite;
 }
 
-.navbar{
+.navigation{
     background-color: #4e342ec5;
     position: sticky;
     top: 0;
@@ -49,17 +49,17 @@ header{
     box-shadow: 0 0.5px 3px #000;
 }
 
-.navbar ul{
+.navigation ul{
     display: flex;
     justify-content: space-evenly;
 }
 
-.navbar li{
+.navigation li{
     list-style: none;
     padding: 1.5%;
 }
 
-.navbar li:hover{
+.navigation li:hover{
     background-color: #cdcdcd4d;
 }
 
@@ -79,14 +79,14 @@ footer{
 
 
 /* HOMEPAGE */
-.container-home{
+.cont-home{
     background-image: url('https://i.postimg.cc/BZdyWJbN/petr-sevcovic-q-E1jx-YXiw-OA-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.container-home button:hover{
+.cont-home button:hover{
     background-color: #4e342ec5;
     color: #d9d9d9;
     box-shadow: 0 0 5px #888;
@@ -104,8 +104,8 @@ footer{
 
 .about:hover{
     text-align: center;
-    font-size: 19px;
-    transition: 0.5s ease-in;
+    font-size: 17.5px;
+    transition: 1s ease-in;
 }
 
 .about button, .h-btn, .ordr-btn{
@@ -116,13 +116,12 @@ footer{
     animation: fadeIn 5.5s ease-in-out;
 }
 
-.container-home .home-products{
+.home-products{
     /* background-color: #FFB3A7; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     margin: 2% 0% 7% 8%;
-
 }
 
 .home-products img{
@@ -137,10 +136,7 @@ footer{
     box-shadow: 0 0 8px #000;
     width: 75%;
     background-color: #f4f4f45e;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-radius: 35px;
 }
 
 .cards:hover{
@@ -208,14 +204,14 @@ footer{
 
 /* PRODUCT PAGE */
 
-.container-products{
+.cont-products{
     /* background-image: url('https://i.postimg.cc/nrf94qT4/about-background.jpg'); */
     background-image: url('https://i.postimg.cc/NFkZJYp4/anastasiia-chepinska-lcf-H0p6emhw-unsplash.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
-.container-products section{
+.cont-products section{
     display: flex;
     justify-content: space-evenly;
     padding: 2% 1% 2% 7%;
@@ -225,19 +221,19 @@ footer{
     /* flex-wrap: wrap; */
 }
 
-.container-products section img{
+.cont-products section img{
     width: 100%;
     border-bottom: 1px solid #000;
 }
 
-.container-products section div{
+.cont-products section div{
     box-shadow: 0 0 15px #000;
     margin: 1.5%;
     background-color: #f4f4f45e;
     text-align: center;
 }
 
-.container-products section div p,.container-products section div h3 {
+.cont-products section div p,.cont-products section div h3 {
     padding: 5%;
 }
 
@@ -253,7 +249,7 @@ footer{
 
 /* CHECKOUT PAGE */
 
-.container-order{
+.cont-order{
     background-image: url('https://i.postimg.cc/NfxSXGWd/Generate-a-caf-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -313,7 +309,7 @@ footer{
 
 }
 
-.container-order h6{
+.cont-order h6{
         font-size: 60%;
         margin: 0;
         padding: 0;
@@ -321,7 +317,7 @@ footer{
 
 /* ABOUT PAGE */
 
-.container-about{
+.cont-about{
     background-image: url('https://i.postimg.cc/YC9N7PPC/about-background.jpg');
     background-attachment: fixed;
     background-repeat: repeat;
@@ -345,7 +341,7 @@ footer{
 
 /* CONTACT PAGE */
 
-.container-contact{
+.cont-contact{
     background-image: url('https://i.postimg.cc/C5vfVgfw/generate-a-contactge-1.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -365,7 +361,7 @@ footer{
     width: 55%;
 }
 
-.container-contact input, textarea{
+.cont-contact input, textarea{
     padding: 2.5%;
     width: 40%;
     border-radius: 25px;
@@ -401,3 +397,29 @@ footer{
 }
 
 /* MEDIA QUERIES */
+    /* MOBILE DEVICES */
+@media screen and (max-width: 300px) {
+    .home-products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, fr);
+        gap: 15px;
+        margin-left: 20%;
+    }
+}
+
+    /* TABLETS DEVICES */
+@media screen and (min-width: 301px) and (max-width: 720px) {
+    .home-products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, fr);
+        gap: 15px;
+        margin-left: 20%;
+    }
+}
+
+    /* RANGE BETWEEN 300PX AND 1080PX */
+@media screen and (min-width: 301px) and (max-width: 1080px) {
+
+}
