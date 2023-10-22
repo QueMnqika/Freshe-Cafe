@@ -443,6 +443,12 @@ footer{
         margin-left: -9%;
     }
 
+    .cards:hover{
+        box-shadow: 0 0 16px #000;
+        width: 91%;
+        transition: 0.5s ease-in;
+       }
+
     .testimonials{
         display: flex;
         flex-direction: column;
@@ -503,6 +509,7 @@ footer{
        .contact-form textarea{
         width: 85%;
        }
+       
 }
 
 
@@ -549,6 +556,13 @@ footer{
         width: 110%;
         margin-left: -18%;
     }
+
+    .cards:hover{
+        box-shadow: 0 0 16px #000;
+        width: 111%;
+        transition: 0.5s ease-in;
+       }
+
 
     .testimonials{
         display: flex;
@@ -597,7 +611,7 @@ footer{
 }
 
     /* RANGE BETWEEN 300PX AND 1080PX */
-@media screen and (min-width: 301px) and (max-width: 1080px) {
+@media screen and (min-width: 301px) and (max-width: 1200px) {
     .about button:hover{
         background-color: #4e342ec5;
         color: #fff;
