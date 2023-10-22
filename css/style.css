@@ -258,6 +258,9 @@ footer{
 .products button{
     width: 50%;
     margin: 3%;
+    padding: 3%;
+    border-radius: 25px;
+    border: none;
 }
 
 .products a{
@@ -640,7 +643,7 @@ footer{
 }
 
     /* RANGE BETWEEN 300PX AND 1080PX */
-@media screen and (min-width: 301px) and (max-width: 1200px) {
+@media screen and (min-width: 301px) and (max-width: 1080px) {
     .about button:hover{
         background-color: #4e342ec5;
         color: #fff;
@@ -663,13 +666,11 @@ footer{
         padding: 3%;
         border-radius: 25px;
         border: none;
-        width: 50%;
-        margin: 3%;
     }
 
     .products section{
         width: 100%;
-        margin-left: -3%;
+        margin-left: -10%;
     }
 
 }
